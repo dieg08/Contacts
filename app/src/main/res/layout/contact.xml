@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <!-- Person Image -->
+    <ImageView
+        android:id="@+id/defaultImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:paddingRight="10dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Phone Number -->
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:textColor="#63BF9F"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Full name -->
+        <TextView
+            android:id="@+id/fullName"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="2dip"
+            android:textColor="#63BF9F" />
+
+        <!-- email -->
+        <TextView
+            android:id="@+id/email2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left"
+            android:textColor="#63BF9F"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

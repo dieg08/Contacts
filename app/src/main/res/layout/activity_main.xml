@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#1F2273">
+
+    <ListView
+        android:id="@+id/contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/footer"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="+"
+        android:id="@+id/footer"
+        android:gravity="center"
+        android:background="#93ff7c"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="addContact" />
+
+</RelativeLayout>
+
+
